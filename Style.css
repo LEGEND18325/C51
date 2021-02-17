@@ -1,0 +1,62 @@
+h1{
+    color:crimson;
+}
+
+*{
+    border: solid;
+}
+
+.header{
+    background-color: blue;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.game{
+    background-color: cyan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*.trex{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}*/
+
+
+p,h2{
+    border:solid yellow;
+    color: green;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight:lighter ;
+}
+
+h3{
+display: flex;
+flex-direction: column;
+justify-content: first baseline;
+color: indigo;
+text-align: center;
+font-style: oblique;
+list-style: decimal;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+body{
+border:solid red;
+border-width: 10px;
+margin-top: 20px;
+
+    background-color: #808080
+}
